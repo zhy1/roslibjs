@@ -10,7 +10,8 @@ var Service = require('./Service');
 var ServiceRequest = require('./ServiceRequest');
 
 var assign = require('object-assign');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
+EventEmitter2 = EventEmitter2.EventEmitter2 ? EventEmitter2.EventEmitter2 : EventEmitter2;
 
 /**
  * Manages connection to the server and all interactions with ROS.

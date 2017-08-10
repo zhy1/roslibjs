@@ -5,8 +5,8 @@
 
 var Topic = require('../core/Topic');
 var Message = require('../core/Message');
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
-
+var EventEmitter2 = require('eventemitter2');
+EventEmitter2 = EventEmitter2.EventEmitter2 ? EventEmitter2.EventEmitter2 : EventEmitter2;
 /**
  * An actionlib action server client.
  *

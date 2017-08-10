@@ -3,7 +3,8 @@
  * @author Brandon Alexander - baalexander@gmail.com
  */
 
-var EventEmitter2 = require('eventemitter2').EventEmitter2;
+var EventEmitter2 = require('eventemitter2');
+EventEmitter2 = EventEmitter2.EventEmitter2 ? EventEmitter2.EventEmitter2 : EventEmitter2;
 var Message = require('./Message');
 
 /**
