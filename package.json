@@ -1,8 +1,6 @@
 {
   "name": "roslibzy",
-  "homepage": "https://www.robotwebtools.org",
-  "description": "The standard ROS Javascript Library",
-  "version": "0.21",
+  "version": "0.20",
   "license": "BSD-2-Clause",
   "main": "./src/RosLibNode.js",
   "browser": {
@@ -55,10 +53,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhy1/roslibjs"
+    "url": "https://github.com/zhy1/roslibjs/releases"
   },
   "bugs": {
-    "url": "https://github.com/RobotWebTools/roslibjs/issues"
+    "url": "https://github.com/zhy1/roslibjs/issues"
   },
   "keywords": [
     "ROS",
